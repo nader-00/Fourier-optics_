@@ -1,6 +1,6 @@
 # Fourier Optics (SLM Lab)
 
-University lab project exploring Fourier optics with a phase-mostly Spatial Light Modulator (Holoeye LC2012) at λ = 532 nm. The repo contains code and results for (i) characterising the SLM, (ii) imaging and filtering in the Fourier plane with a 4-f system, and (iii) computer-generated holography via the Gerchberg–Saxton algorithm.
+University lab project exploring Fourier optics with a phase-mostly Spatial Light Modulator (SLM) at λ = 532 nm. The repo contains code and results for (i) characterising the SLM, (ii) imaging and filtering in the Fourier plane with a 4-f system, and (iii) computer-generated holography via the Gerchberg–Saxton algorithm.
 
 ## What’s here
 - **Notebook:** `Fourier_Optics_Algherbawi.ipynb` – end-to-end workflow:
@@ -18,11 +18,6 @@ University lab project exploring Fourier optics with a phase-mostly Spatial Ligh
 - **Imaging check:** measured effective focal length from bench geometry ≈ **71.05 ± 0.31 mm** (vs. nominal 100 mm).  
 - **Filtering intuition:** high-pass → edges enhanced; low-pass → blurred global structure; vertical slit → suppresses horizontal detail.  
 - **Holography:** Gerchberg–Saxton iterations reduce amplitude error and sharpen reconstructions (e.g., 10 → 50 iters).
-
-## Run it
-1. Python 3.10+ with: `numpy`, `matplotlib`, `scipy`, `Pillow` (and optionally `opencv-python` for image I/O).
-2. Launch Jupyter/Lab and open `Fourier_Optics_Algherbawi.ipynb`.
-3. Execute cells top-to-bottom; the notebook saves figures into `Results/`.
 
 ## References
 - B. E. A. Saleh & M. C. Teich, *Fundamentals of Photonics*.  
